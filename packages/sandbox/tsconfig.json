@@ -1,0 +1,27 @@
+{
+    "extends": "../../tsconfig.base.json",
+    "compilerOptions": {
+        "baseUrl": ".",
+        "composite": true,
+        "declaration": true,
+        "rootDir": "./src/FileCabinet/SuiteScripts/ts",
+        "outDir": "./src/FileCabinet/SuiteScripts",
+        "paths": {
+            "N": [
+                "../../node_modules/@hitc/netsuite-types/N"
+            ],
+            "N/*": [
+                "../../node_modules/@hitc/netsuite-types/N/*"
+            ],
+            "lib": [
+                "./src/FileCabinet/SuiteScripts/ts/lib"
+            ],
+        },
+    },
+    "exclude": [
+        "node_modules",
+    ],
+    "include": [
+        "./src/FileCabinet/SuiteScripts/ts"
+    ],
+}

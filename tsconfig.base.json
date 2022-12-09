@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "module": "amd",
+        "target": "ESNext",
+        "sourceMap": false,
+        "declaration": true,
+        "composite": true,
+        "noImplicitUseStrict": true,
+        "experimentalDecorators": true,
+        "noEmitOnError": false,
+        "lib": ["es5", "es2015.promise", "es2017", "dom"],
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "projectName": "SDF",
+    "environments": [
+        {
+            "package": "packages/production",
+            "name": "PROD",
+            "account": "12345678",
+            "url": "system.netsuite.com",
+            "role": 3
+        },
+        {
+            "package": "packages/sandbox",
+            "name": "SANDBOX",
+            "account": "12345678_SB1",
+            "url": "12345678-sb1.app.netsuite.com",
+            "role": 3
+        }
+    ]
+}
